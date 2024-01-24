@@ -11,7 +11,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-color: #f5f5f5;
+  background-color: #ebfff2;
 }
 
 nav {
@@ -38,7 +38,7 @@ nav img {
 }
 
 .nav-links ul li a {
-  color: #535353;
+  color: #000000;
   text-decoration: none;
   font-size: 15px;
 }
@@ -47,7 +47,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: #697796;
+  background: #25D3;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -138,7 +138,7 @@ footer {
 .video-container {
   padding: 20px 60px;
   width: 100%;
-  background-color: #e0e0e0;
+  background-color: #B9F2F5;
   border-radius: 40px;
   margin: 10px;
 }
@@ -155,11 +155,30 @@ footer {
   border-color: #000000;
 }
 
+/* Add this to your existing style.css */
+
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.music-video {
+  width: 100%;
+  max-width: 500px;
+  height: auto; /* Make the video responsive */
+}
+
+.video-caption {
+  margin-top: 10px;
+  color: #474747;
+}
+
+
 .video-caption {
   text-align: center;
   padding: 8px;
   font-size: 20px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   border-radius: 0 0 40px 40px;
   border-color: #757575;
 }
@@ -170,11 +189,13 @@ footer {
   padding: 50px;
 }
 
+
+
 .card-1 {
   position: absolute;
   right: 50%;
   transform: translate(50px, 50px);
-  background: url("images/lady.png") no-repeat;
+  background: url("Images/paintbucket.jpeg") no-repeat;
   width: 500px;
   height: 300px;
   background-size: auto 100%;
@@ -209,7 +230,7 @@ footer {
 
 .song-lyrics {
   position: absolute;
-  font-size: 2rem;
+  font-size: 23px;
   top: 135px;
   left: 125px;
 }
@@ -224,7 +245,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 350px;
-  background-color: #697796;
+  background-color: #B0F0C6;
 }
 
 .socials-container {
