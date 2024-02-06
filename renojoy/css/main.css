@@ -1,36 +1,4 @@
-/*
-* Mate - Bootstrap 4 Template
-* Build Date: December 2017
-* Last updated: December 2017
-* Version: 1.0
-* Author: UIdeck
-* Copyright (C) 2018 UIdeck
-*/
-/* ------------------------------------- */
-/* TABLE OF CONTENTS
-/* -------------------------------------
-  1. IMPORT GOOGLE FONTS
-  2. GENERAL
-    -2.1 SECTION TITLE
-    -2.2 BUTTONS
-    -2.3 SOCIAL ICON
-    -2.4 PRE LOADER
-    -2.5 SCROLL TO UP
-  3. HERO AREA 
-  4. NAVBAR
-  5. SERVICES SECTION
-  6. FEATURES SECTION
-  7. VIDEO PROMO SECTION
-  8. PORTFOLIO SECTION
-  9. PRICING TABLE 
-  10. COUNTER SECTION
-  11. TESTIMONIAL AREA
-  12. TEAM SECTION
-  13. BLOG SECTION
-  14. CONTACT SECTION
-  15. FOOTER SECTION
-    -15.1 COMING SOON PAGE
-  ------------------------------------- */
+
 /* ==========================================================================
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
@@ -57,7 +25,7 @@ body {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  background: #fff;
+  
   overflow-x: hidden;
 }
 
@@ -1297,4 +1265,15 @@ footer {
 
 /* login */
 
+button.signout {
+  background-color: #606060; /* Blue color, you can adjust the color code as needed */
+  color: #fa9e9e; /* Text color */
+  padding-top: 45px;
+  padding-left:50px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
